@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibrant Responsive Landing Page</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+< <body>
+
+    <!-- Fixed Navigation Bar -->
+    <header id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">BrightWeb</a>
+            <nav>
+                <!-- Mobile menu toggle button -->
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Experience Vibrant Design</h1>
+                <p>Building responsive, colorful, and beautiful websites that stand out.</p>
+                <a href="#about" class="btn">Explore More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <p>We are a creative team dedicated to bringing color and life to the web. Our mission is to create
+                        user-friendly designs that leave a lasting impression.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-alt">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h3>Responsive Design</h3>
+                    <p>Websites that look great on any device, from mobile phones to large desktops.</p>
+                    <h3>Creative Solutions</h3>
+                    <p>Unique and colorful designs to match your brand's personality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Get in touch for your next project.</p>
+            <p>&copy; 2024 BrightWeb. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+    </body>
+
+</html>
